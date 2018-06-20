@@ -1,0 +1,94 @@
+body{
+  background-color: #D3EAFC
+  }
+.App {
+  margin: 0px auto;
+  display: grid;
+  text-align: center;
+  grid-template-columns:repeat(1,1fr);
+  width: 80%;
+  align-content: center;
+  background-color: #F1F1F1;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.header-section {
+ display: grid;
+ grid-column-start: 1;
+ grid-column-end: 3;
+ background-color: #5F5F5F;
+}
+.header-section h3{
+  color: white;
+  font-family: verdana;
+  font-style: italic;
+}
+.header-section input[type=text]{
+  width: 20%;
+  padding: 10px 10px 10px 10px;
+  margin:10px;
+  box-shadow: #beb4b2;
+}
+.header-section select{
+  width: 10%;
+  padding: 10px 10px 10px 10px;
+  margin:10px;
+  box-shadow: #beb4b2;
+}
+.header-section button{
+  width: 10%;
+  padding: 10px 10px 10px 10px;
+  margin:10px;
+  box-shadow: #beb4b2;
+}
+.income-section{
+ display: grid;
+ grid-column-start: 1;
+ grid-column-end: 2;
+ width: 50%;
+
+}
+.income-section-part li{
+ padding:10px 10px;
+ font-family: verdana;
+}
+.expense-section-part li{
+ padding:10px 10px;
+ font-family: verdana;
+}
+.expense-section{
+  display: grid;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  position: absolute;
+  left: 900px;
+  top:180px;
+}
+.balance-section{
+ display: grid;
+ grid-column-start: 1;
+ grid-column-end: 3;
+}
